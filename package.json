@@ -3,6 +3,7 @@
   "displayName": "Automatic Debit Febraban Layout Previewer",
   "description": "Visualize automatic debit files that follows the layout established by Febraban",
   "version": "0.0.1",
+  "publisher": "lucas-braganca",
   "repository": {"url": "https://github.com/lucasbflopes/automatic-debit-febraban-layout-preview"},
   "engines": {
     "vscode": "^1.74.0"
