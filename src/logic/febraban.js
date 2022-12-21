@@ -34,6 +34,11 @@ const RECORDS = {
             {
                 start: 66,
                 length: 8,
+                description: "Data de geração"
+            },
+            {
+                start: 74,
+                length: 6,
                 description: "NSA"
             },
             {
