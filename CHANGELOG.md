@@ -6,5 +6,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+- [0.0.3] Fix record a fields 
 - [0.0.2] Add line length validation
 - [0.0.1] Initial release
