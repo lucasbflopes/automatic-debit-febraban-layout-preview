@@ -398,11 +398,15 @@ const RECORDS = {
 };
 
 function parseRecord(line) {
+    if (line.length != 150) {
+        return { error: `Line should have 150 characters. Current ${line.length}` }
+    }
+
     const recordType = line[0];
     const record = RECORDS[recordType];
 
     if (!record) {
-        return { error: "Uknown type of record" };
+        return { error: "Unknown type of record" };
     }
 
     return record.fields.reduce((acc, field) => ({
