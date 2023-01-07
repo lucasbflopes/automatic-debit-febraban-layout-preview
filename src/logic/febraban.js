@@ -422,7 +422,7 @@ function parseRecord(line) {
 
 function previewFile(fileContent) {
     return JSON.stringify(
-        fileContent.split("\n")
+        fileContent.split(/\r?\n/)
             .reduce((acc, line) => {
                 if (!line.trim()) {
                     return acc;
